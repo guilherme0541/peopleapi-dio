@@ -1,6 +1,6 @@
 package one.digitalinnovation.personapi.controller;
 
-import one.digitalinnovation.personapi.repository;
+import one.digitalinnovation.personapi.repository.PersonRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,7 @@ public class PersonController {
     }
 
     @PostMapping
-    public Strig name() {
-        
+    public String name() {
+        return "";
     }
 }
